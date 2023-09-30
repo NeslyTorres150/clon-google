@@ -11,15 +11,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body background image = "Assets/fondo.jpg">
     <header>
-        <!--listas horizontales: display inline-->
-        <ul>
-            <li>Gmail</li>
-            <li>Imágenes</li>
-            <li>icono</li>
-            <li>foto de perfil</li>
-        </ul>
+            <div class="iconos">
+                <a href="">Gmail</a>
+                <a href="">Imágenes</a>
+                <a href=""><img src="Assets/icon-puntos.png" alt="icono"></a>
+                <a href=""><img src="assets/foto-perfil.jpg" alt="perfil"></a>
+            </div>
     </header>
     <main>
         <section>
@@ -71,8 +70,12 @@
                 </div>  
             </article>    
             <article>
+            <div class="botones">
+                <center>
                 <button>Buscar con Google</button>
                 <button>Voy a tener suerte</button>
+                </center>
+            </div>
             </article>
         </section>
     </main>
@@ -82,18 +85,22 @@
                 <li>México</li>
             </ul>
         </section>
-        <section>
+        <section class="info">
+        <div>
          <ul>
             <li>Sobre Google</li>
             <li>Publicidad</li>
             <li>Negocios</li>
             <li>Cómo funciona la Búsqueda</li>
          </ul>
+        </div>
+        <div>
          <ul>
             <li>Privacidad</li>
             <li>Condiciones</li>
             <li>Preferencias</li>
          </ul>
+        </div>
         </section>
     </footer>
 </body>
